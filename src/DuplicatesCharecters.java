@@ -16,6 +16,7 @@ public class DuplicatesCharecters {
 		String str= new String("RRaannjjett");
 		int count=0;
 		char chars[]=str.toCharArray();
+		System.out.println("Duplicate Characters are :");
 		for(int i=0;i<str.length();i++) {
 			for(int j=i+1;j<str.length();j++) {
 				if(chars[i]==chars[j]) {
