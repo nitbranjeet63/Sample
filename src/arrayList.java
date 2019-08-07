@@ -14,13 +14,13 @@ public class arrayList {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList list=new ArrayList();
+		ArrayList<String> list=new ArrayList<String>();
 		list.add("20");
 		list.add("30");
 		list.add("40");
 		System.out.println(list.size());
 		System.out.println("While Loop:");
-		Iterator itr=list.iterator();
+		Iterator<String> itr=list.iterator();
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
 		}
