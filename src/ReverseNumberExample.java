@@ -10,8 +10,6 @@ public class ReverseNumberExample {
        //input number to reverse
         System.out.println("Please enter number to be reversed using Java program: ");
         int number = new Scanner(System.in).nextInt();
-     
-        int reverse = reverse(number);
         System.out.println("Reverse of number: " + number + " is " + reverse(number));  
    
     }
