@@ -18,6 +18,7 @@ public class arrayList {
 		list.add("20");
 		list.add("30");
 		list.add("40");
+		System.out.println("\tI love coding");
 		System.out.println(list.size());
 		System.out.println("While Loop:");
 		Iterator<String> itr=list.iterator();
